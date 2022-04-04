@@ -70,6 +70,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\ENT\CityENT.cs" />
     <Compile Include="Content\AddressBook3Tier.Master.cs">
       <DependentUpon>AddressBook3Tier.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -90,6 +91,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\BAL\" />
+    <Folder Include="App_Code\DAL\" />
     <Folder Include="Content\Css\" />
     <Folder Include="Content\Js\" />
   </ItemGroup>
